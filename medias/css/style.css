@@ -26,7 +26,7 @@ nav {
     transition: 0.5s;
 }
 .menu li a:hover {
-    color: rgb(61, 78, 90);
+    color: rgb(52, 65, 75);
     transition: 0.5s;
 }
 .focus {
@@ -51,6 +51,7 @@ section img {
     border: 1px solid #ccc;
     border-radius: 25px;
     box-shadow: 3px 3px 9px #ddd;
+    margin-top: 50px;
 }
 .resume h2 {
     text-align: center;
@@ -62,7 +63,7 @@ section img {
 }
 .resume p:last-child {
     display: inline;
-    background-color: rgb(30, 25, 18);
+    background-color: green;
     padding: 5px 25px;
 }
 a {
@@ -74,6 +75,11 @@ a:hover {
     color: #ffffff;
     transition: 0.7s;
 }
+
+a.active{
+    text-decoration: underline;
+    background: rgba(193, 217, 218, 0.121);
+}
 .ronde {
     background-size: cover;
     background-position: center;
@@ -83,14 +89,13 @@ a:hover {
     border-radius: 50%;
     float: left;
     margin-right: 20px;
+    
+    
 }
 .rond-versailles {
     background-image: url(../images/align-fingers-71282_1280.jpg);
+    
 }
-.rond-chambord {
-    background-image: url(../images/Webp.net-resizeimage\ \(4\).png);
-}
-
 
 @media screen and (max-width: 950px) {
     .voir-menu, .cacher-menu {
