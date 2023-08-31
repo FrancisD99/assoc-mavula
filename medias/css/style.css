@@ -144,11 +144,22 @@ a.active{
         height: auto;
         text-align: center;
     }
+
+
+
+#carouselExampleAutoplaying{
+    width: 80%;
+    margin: auto;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: auto;
 }
 
 
+}
 
-  
   .footer-clean {
       padding:20px 0;
       background-color:#504d4d;
